@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WEAPONS xml:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="projekt.xsd">
+       <WEAPON id="001" type="tank" subtype="main battle tank">
+              <NAME>M1 Abrams</NAME>
+              <ORIGIN region="NA">U.S.A.</ORIGIN>
+              <SERVICE>1980-present</SERVICE>
+              <PRICE>$8.92 million</PRICE>
+              <DESIGNER>Chrysler Defense</DESIGNER>
+              <DESIGNED>1972-1975</DESIGNED>
+              <MANUFACTURER>Lima Army Tank Plant</MANUFACTURER>
+              <PRODUCED>1979-present</PRODUCED>
+              <PIECES>10,396</PIECES>
+              <WEIGHT>54 t</WEIGHT>
+              <LENGTH>9.77 m</LENGTH>
+              <WIDTH>3.66 m</WIDTH>
+              <HEIGHT>2.44 m</HEIGHT>
+              <CREW crewcount="4">commander, gunner, loader, driver</CREW>
+              <SPEED>72 km/h</SPEED>
+              <ARMOR>composite armor</ARMOR>
+              <RANGE>426 km</RANGE>
+         </WEAPON>
+       <WEAPON id="002" type="tank" subtype="main battle tank">
+              <NAME>Challenger 2</NAME>
+              <ORIGIN region="EU">United Kingdom</ORIGIN>
+              <SERVICE>1998-present</SERVICE>
+              <PRICE>£4,217,000</PRICE>
+              <DESIGNER>Alvis plc, BAE Systems Land, Armaments</DESIGNER>
+              <DESIGNED>1993</DESIGNED>
+              <MANUFACTURER>Alvis plc, BAE Systems Land, Armaments</MANUFACTURER>
+              <PRODUCED>1993-2002</PRODUCED>
+              <PIECES>447</PIECES>
+              <WEIGHT>64 t</WEIGHT>
+              <LENGTH>8.3 m</LENGTH>
+              <WIDTH>3.5 m</WIDTH>
+              <HEIGHT>2.49 m</HEIGHT>
+              <CREW crewcount="4">commander, gunner, loader, driver</CREW>
+              <SPEED>59 km/h</SPEED>
+              <ARMOR>Chobham / Dorchester Level 2</ARMOR>
+              <RANGE>550 km</RANGE>
+        </WEAPON>
+       <WEAPON id="003" type="tank" subtype="main battle tank">
+              <NAME>Leopard 2</NAME>
+              <ORIGIN region="EU">Germany</ORIGIN>
+              <SERVICE>1979-present</SERVICE>
+              <PRICE>$5.74 million</PRICE>
+              <DESIGNER>Krauss-Maffei</DESIGNER>
+              <DESIGNED>1970s</DESIGNED>
+              <MANUFACTURER>Krauss-Maffei Wegmann Maschinenbau Kiel</MANUFACTURER>
+              <PRODUCED>1979-present</PRODUCED>
+              <PIECES>3,600</PIECES>
+              <WEIGHT>62.3 t</WEIGHT>
+              <LENGTH>9.97 m</LENGTH>
+              <WIDTH>3.75 m</WIDTH>
+              <HEIGHT>3.0 m</HEIGHT>
+              <CREW crewcount="4">commander, gunner, loader, driver</CREW>
+              <SPEED>70 km/h</SPEED>
+              <ARMOR>3rd generation composite</ARMOR>
+              <RANGE>400 km</RANGE>
+         </WEAPON>
+       <WEAPON id="004" type="tank" subtype="main battle tank">
+              <NAME>Leclerc</NAME>
+              <ORIGIN region="EU">France</ORIGIN>
+              <SERVICE>1992-present</SERVICE>
+              <PRICE>$4 million</PRICE>
+              <DESIGNER>Nexter</DESIGNER>
+              <DESIGNED>1983-1989</DESIGNED>
+              <MANUFACTURER>Nexter</MANUFACTURER>
+              <PRODUCED>1990-2008</PRODUCED>
+              <PIECES>862</PIECES>
+              <WEIGHT>57.4 t</WEIGHT>
+              <LENGTH>9.87 m</LENGTH>
+              <WIDTH>3.60 m</WIDTH>
+              <HEIGHT>2.53 m</HEIGHT>
+              <CREW crewcount="3">commander, gunner, driver</CREW>
+              <SPEED>71 km/h</SPEED>
+              <ARMOR>modular composite armor</ARMOR>
+              <RANGE>550 km</RANGE>
+         </WEAPON>
+       <WEAPON id="005" type="tank" subtype="main battle tank">
+              <NAME>T-14 Armata</NAME>
+              <ORIGIN region="CIS">Russia</ORIGIN>
+              <SERVICE>Mostly Shady</SERVICE>
+              <PRICE>$3.7 million</PRICE>
+              <DESIGNER>Ural Design Bureau of Transport Machine-Building</DESIGNER>
+              <DESIGNED>2015</DESIGNED>
+              <MANUFACTURER>Uralvagonzavod</MANUFACTURER>
+              <PRODUCED>2015-present</PRODUCED>
+              <PIECES>unknown</PIECES>
+              <WEIGHT>55 t</WEIGHT>
+              <LENGTH>8.7 m</LENGTH>
+              <WIDTH>3.5 m</WIDTH>
+              <HEIGHT>3.3 m</HEIGHT>
+              <CREW crewcount="3">commander, gunner, driver</CREW>
+              <SPEED>90 km/h</SPEED>
+              <ARMOR>44S-sv-Sh Steel</ARMOR>
+              <RANGE>500 km</RANGE>
+          </WEAPON>
+       <WEAPON id="006" type="tank" subtype="main battle tank">
+              <NAME>Merkava</NAME>
+              <ORIGIN region="MENA">Israel</ORIGIN>
+              <SERVICE>1979-present</SERVICE>
+              <PRICE>$3.5 million</PRICE>
+              <DESIGNER>MANTAK</DESIGNER>
+              <DESIGNED>1970</DESIGNED>
+              <MANUFACTURER>MANTAK/IDF Ordnance Corps </MANUFACTURER>
+              <PRODUCED>1979-present</PRODUCED>
+              <PIECES>2500</PIECES>
+              <WEIGHT>65 t</WEIGHT>
+              <LENGTH>9.04 m</LENGTH>
+              <WIDTH>3.72 m</WIDTH>
+              <HEIGHT>2.66 m</HEIGHT>
+              <CREW crewcount="4">commander, gunner, loader, driver</CREW>
+              <SPEED>64 km/h</SPEED>
+              <ARMOR>Classified composite/sloped armour modular design.</ARMOR>
+              <RANGE>500 km </RANGE>
+          </WEAPON>
+       <WEAPON id="007" type="tank" subtype="main battle tank">
+              <NAME>T-90A</NAME>
+              <ORIGIN region="CIS">Russia</ORIGIN>
+              <SERVICE>1992-present</SERVICE>
+              <PRICE>$4.25 million</PRICE>
+              <DESIGNER>Kartsev-Venediktov</DESIGNER>
+              <DESIGNED>1992</DESIGNED>
+              <MANUFACTURER>Uralvagonzavod, Heavy Vehicles Factory</MANUFACTURER>
+              <PRODUCED>1992-present</PRODUCED>
+              <PIECES>8,500+</PIECES>
+              <WEIGHT>46 t</WEIGHT>
+              <LENGTH>9.63 m</LENGTH>
+              <WIDTH>3.78 m</WIDTH>
+              <HEIGHT>2.22 m</HEIGHT>
+              <CREW crewcount="3">commander, gunner, driver</CREW>
+              <SPEED>60 km/h</SPEED>
+              <ARMOR>Steel-composite-reactive blend</ARMOR>
+              <RANGE>550 km </RANGE>
+          </WEAPON>
+       <WEAPON id="008" type="tank" subtype="main battle tank">
+              <NAME>C1 Ariete</NAME>
+              <ORIGIN region="EU">Italy</ORIGIN>
+              <SERVICE>1995-present</SERVICE>
+              <PRICE>$3.9 million</PRICE>
+              <DESIGNER>Consorzio Iveco Oto Melara</DESIGNER>
+              <DESIGNED>1993</DESIGNED>
+              <MANUFACTURER>Consorzio Iveco Oto Melara</MANUFACTURER>
+              <PRODUCED>1995-2002</PRODUCED>
+              <PIECES>200</PIECES>
+              <WEIGHT>54 t</WEIGHT>
+              <LENGTH>9.52 m</LENGTH>
+              <WIDTH>3.61 m</WIDTH>
+              <HEIGHT>2.45 m</HEIGHT>
+              <CREW crewcount="4">commander, gunner, loader, driver</CREW>
+              <SPEED>65 km/h</SPEED>
+              <ARMOR>steel and composite</ARMOR>
+              <RANGE>600 km</RANGE>
+          </WEAPON>
+       <WEAPON id="009" type="tank" subtype="main battle tank">
+              <NAME>T-84</NAME>
+              <ORIGIN region="CIS">Ukraine</ORIGIN>
+              <SERVICE>1999-present</SERVICE>
+              <PRICE>$3.23</PRICE>
+              <DESIGNER>KMDB</DESIGNER>
+              <DESIGNED>1975-1994</DESIGNED>
+              <MANUFACTURER>Malyshev Factory</MANUFACTURER>
+              <PRODUCED>1994-present</PRODUCED>
+              <PIECES>2500</PIECES>
+              <WEIGHT>46 t</WEIGHT>
+              <LENGTH>7.086 m </LENGTH>
+              <WIDTH>3.775 m</WIDTH>
+              <HEIGHT>2.215 m</HEIGHT>
+              <CREW crewcount="3">commander, gunner, driver</CREW>
+              <SPEED>65 km/h</SPEED>
+              <ARMOR>Steel, composite, ERA</ARMOR>
+              <RANGE>540 km</RANGE>
+          </WEAPON>
+       <WEAPON id="010" type="tank" subtype="main battle tank">
+              <NAME>Arjun</NAME>
+              <ORIGIN region="SA">India</ORIGIN>
+              <SERVICE>2004-present</SERVICE>
+              <PRICE>$2.98 millions</PRICE>
+              <DESIGNER>Combat Vehicles Research and Development Establishment</DESIGNER>
+              <DESIGNED>1983-1996</DESIGNED>
+              <MANUFACTURER>Armoured Vehicles Nigam Limited</MANUFACTURER>
+              <PRODUCED>2004-present</PRODUCED>
+              <PIECES>2500</PIECES>
+              <WEIGHT>58.5 t</WEIGHT>
+              <LENGTH>10.19 m</LENGTH>
+              <WIDTH>3.85 m</WIDTH>
+              <HEIGHT>2.32 m</HEIGHT>
+              <CREW crewcount="4">commander, gunner, loader, driver</CREW>
+              <SPEED>70 km/h</SPEED>
+              <ARMOR>ERA, NERA, Kanchan armour </ARMOR>
+              <RANGE>450 km</RANGE>
+          </WEAPON>
+   </WEAPONS>

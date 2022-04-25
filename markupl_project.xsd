@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="WEAPONS">
+    <xs:complexType>
+        <xs:group>
+            <xs:sequence>
+                <xs:element name="WEAPON" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element type="xs:string" name="NAME"/>
+                        <xs:element name="ORIGIN">
+                            <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                <xs:attribute name="region" use="optional">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="EU"/>
+                                            <xs:enumeration value="CIS"/>
+                                            <xs:enumeration value="MENA"/>
+                                            <xs:enumeration value="NA"/>
+                                            <xs:enumeration value="SA"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                </xs:extension>
+                            </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element type="xs:string" name="SERVICE"/>
+                        <xs:element type="xs:string" name="PRICE"/>
+                        <xs:element type="xs:string" name="DESIGNER"/>
+                        <xs:element type="xs:string" name="DESIGNED"/>
+                        <xs:element type="xs:string" name="MANUFACTURER"/>
+                        <xs:element type="xs:string" name="PRODUCED"/>
+                        <xs:element type="xs:string" name="PIECES"/>
+                        <xs:element type="xs:string" name="WEIGHT"/>
+                        <xs:element type="xs:string" name="LENGTH"/>
+                        <xs:element type="xs:string" name="WIDTH"/>
+                        <xs:element type="xs:string" name="HEIGHT"/>
+                        <xs:element name="CREW">
+                            <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                <xs:attribute type="xs:integer" name="crewcount" use="optional"/>
+                                </xs:extension>
+                            </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element type="xs:string" name="SPEED"/>
+                        <xs:element type="xs:string" name="ARMOR"/>
+                        <xs:element type="xs:string" name="RANGE"/>
+                    </xs:sequence>
+                    <xs:attribute type="xs:integer" name="id" use="required"/>
+                    <xs:attribute type="xs:string" name="type" use="optional"/>
+                    <xs:attribute type="xs:string" name="subtype" use="optional"/>
+                </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:group>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
